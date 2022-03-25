@@ -8,7 +8,7 @@ class App extends Component {
     recipes: recipes,
     searchField: "",
   };
-
+  
   onSearchChange = (event) => {
     this.setState({
       searchField: event.target.value,

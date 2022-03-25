@@ -1,5 +1,5 @@
 import React from "react";
-import Card from "../Components/Card";
+import Recipe from "./Recipe";
 const RecipeList = ({ recipes }) => {
   return (
     <div className="App">
@@ -11,7 +11,7 @@ const RecipeList = ({ recipes }) => {
         recipes
           .map((recipe) => {
             return (
-              <Card
+              <Recipe
                 key={recipe.id}
                 class="recipe-container"
                 image={recipe.image}

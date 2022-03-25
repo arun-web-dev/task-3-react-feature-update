@@ -1,4 +1,4 @@
-const Card = ({ image, title, publisher }) => {
+const Recipe = ({ image, title, publisher }) => {
   return (
     <div className="bg-light-green dib br3 pa3 ma2 grow bw2 tc shadow-5 recipe-container">
       <img
@@ -14,4 +14,4 @@ const Card = ({ image, title, publisher }) => {
   );
 };
 
-export default Card;
+export default Recipe;
